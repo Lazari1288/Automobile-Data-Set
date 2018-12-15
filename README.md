@@ -1,7 +1,8 @@
 # Data-Wrangling
 Data Wrangling is the process of converting data from the initial format to a format that may be better for analysis.
 
-In this project I downloaded a raw csv file. I identified  all the missing values.
+### In this project I want to predict the price of cars
+I downloaded a raw csv file. I identified  all the missing values.
 First I converted "?" to NaN which is Python's default missing value marker, for reasons of computational speed and convenience. Here I used the function:
 .replace(A, B, inplace = True) 
 to replace A by B
