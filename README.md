@@ -71,16 +71,11 @@ Example:
 
 In  dataset, "horsepower" is a real valued variable ranging from 48 to 288, and it has 57 unique values. 
 I will use the Pandas method 'cut' to segment the 'horsepower' column into 3 bins.
-Indicator variable (or dummy variable)
+### Indicator variable (or dummy variable)
 What is an indicator variable?
-
 An indicator variable (or dummy variable) is a numerical variable used to label categories. They are called 'dummies' because the numbers themselves don't have inherent meaning.
-Why do we use indicator variables?
 
-So that we can use categorical variables for regression analysis in the later modules.
 Example
-
-I see the column "fuel-type" has two unique values, "gas" or "diesel". Regression doesn't understand words, only numbers. To use this attribute in regression analysis, I convert "fuel-type" into indicator variables.
-I will use the panda's method 'get_dummies' to assign numerical values to different categories of fuel type
+The column "fuel-type" has two unique values, "gas" or "diesel". Regression doesn't understand words, only numbers. To use this attribute in regression analysis, I convert "fuel-type" into indicator variables. I will use the panda's method 'get_dummies' to assign numerical values to different categories of fuel type.
 #### Finnaly save the new csv
 
