@@ -78,5 +78,5 @@ An indicator variable (or dummy variable) is a numerical variable used to label 
 
 Example
 The column "fuel-type" has two unique values, "gas" or "diesel". Regression doesn't understand words, only numbers. To use this attribute in regression analysis, I convert "fuel-type" into indicator variables. I will use the panda's method 'get_dummies' to assign numerical values to different categories of fuel type.
-#### Finnaly save the new csv for further analysis
+# Finnaly save the new csv for further analysis in Exploratory Data Analysis file
 
